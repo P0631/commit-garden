@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commit-garden"
+version = "0.1.0"
+description = "把 git commit 歷史種成一座花園（終端機 ASCII + SVG）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+keywords = ["git", "visualization", "cli", "ascii", "svg", "fun"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+
+[project.scripts]
+commit-garden = "commit_garden.cli:main"
+
+[tool.setuptools]
+packages = ["commit_garden"]
