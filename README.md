@@ -16,7 +16,7 @@
 ## 快速開始
 
 ```bash
-git clone https://github.com/<你的帳號>/commit-garden.git
+git clone https://github.com/<P0631>/commit-garden.git
 cd commit-garden
 
 # 1. 先用示範 repo 看看長什麼樣子
