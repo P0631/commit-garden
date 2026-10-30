@@ -1,5 +1,6 @@
 name: Grow garden
 
+# 每次推到 main、每週一、或手動觸發時，重新種一次花園並更新 assets/garden.svg
 on:
   push:
     branches: [main]
